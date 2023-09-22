@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100dvh;
+    position: relative;
+}
+.banner-image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition-duration: 1000ms;
+}
+.banner-left-button{
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    z-index: 1;
+}
+.banner-right-button{
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    z-index: 1;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.53);
+    width: 100%;
+    height: 100%;
+}
+.banner-header{
+    top: 40%;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #ffff;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 1000ms;
+
+}
+.banner-text{
+    top: 50%;
+    font-size: 1.2rem;
+    color: #ffff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1000ms;
+
+}
+.banner-text div{
+    width: 70%;
+    text-align: center;
+}
+.logo{
+    width: 15rem;
+    height: 2.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1.5em;
+    left: 1.5em;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
