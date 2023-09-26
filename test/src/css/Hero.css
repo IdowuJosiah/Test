@@ -74,6 +74,9 @@
     font-size: 4em;
     color: #ffffff;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .hero-details-text{
     font-size: 1.1rem;

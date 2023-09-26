@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.footer-links{
+    display: flex;
+}
+.footer-link-comp{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-links-sect{
+    width: 50%;
+    height: 50%;
+}
+.footer-links-sect h2{
+    font-size: 1.2em;
+    margin-bottom: .5rem;
+    color: #ffffff;
+}
+.footer-link-list li{
+    list-style: none;
+    font-size: 13px;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+    width: fit-content;
+}
+.footer-link-list li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -6px;
+    height: 2px;
+    background: currentColor;
+    transform: scaleX(0);
+    transition: transform 200ms ease-in-out;
+}
+.footer-link-list li:hover{
+    color: #009900;
+}
+.footer-link-list li:hover::after{
+    color: #009900;
+    transform: scaleX(1);
+}
+.footer-address-comp{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-address{
+
+}
+
+.footer-address div{
+    width: 95%;
+    height: 50%;
+}
+.footer-address div h2{
+    color: #ffffff;
+    font-size:1.2em;
+    margin-bottom: .5em;
+}
+.footer-address  div p{
+    font-size: 13px;
+    color: #ffffff;
+}

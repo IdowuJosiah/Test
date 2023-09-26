@@ -1,5 +1,6 @@
 import React from "react"
 import "../css/Hero.css"
+import Counter from "./Counter";
 const Hero =() => {
     return(
         <div className="body">
@@ -33,7 +34,7 @@ const Hero =() => {
                 <div className="hero-details-comp">
                         <div>
                             <p className="hero-details-num">
-                                127
+                                <Counter value={105}/>
                             </p>
                             <p className="hero-details-text">
                                 Awards Received
@@ -41,7 +42,7 @@ const Hero =() => {
                         </div>
                         <div>
                             <p className="hero-details-num">
-                                1505
+                                <Counter value={1505}/>
                             </p>
                             <p className="hero-details-text">
                                 Cups of Coffee Shared
@@ -50,7 +51,7 @@ const Hero =() => {
 
                         <div>
                             <p className="hero-details-num">
-                                105
+                                <Counter value={102}/>
                             </p>
                             <p className="hero-details-text">
                                 Projects Completed
@@ -58,7 +59,7 @@ const Hero =() => {
                         </div>
                         <div>
                             <p className="hero-details-num">
-                                102
+                                <Counter value={102}/>
                             </p>
                             <p className="hero-details-text">
                                 Happy Clients

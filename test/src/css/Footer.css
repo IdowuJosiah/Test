@@ -4,8 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-.page-width{
-    width: calc(100% - 13rem);
-    padding: 30px 20px;
-    margin: 0 auto;
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.footer-comp{
+    background: #111111;
 }

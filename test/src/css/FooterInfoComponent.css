@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.footer-info-comp{
+    display: flex;
+    justify-content: space-between;
+}
+.fic-rs{
+    width: 45%;
+    padding-top: 3rem;
+}
+.fic-rs{
+    color: #595959;
+    line-height: 2rem;
+}
+.fic-ls{
+    width: 45%;
+}
+.fic-ls{
+    color: #ffffff;
+}
+.fic-ls-header{
+    height: 3rem;
+}
+.fic-ls-text p{
+    line-height: 2rem;
+}
+.fic-subscribe-input{
+    height: 3rem;
+    background: #0f0f0f;
+    width: 100%;
+    position: relative;
+}
+.fic-input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: #ffffff;
+    padding-left:3.5rem ;
+    outline: none;
+}
+.fic-input::placeholder{
+    color: #757272;
+}
+.mail-icon{
+    position: absolute;
+    top: 8px;
+    left: 10px
+}
+.mi{
+    font-size: 2rem;
+}
+.fic-button{
+    position: absolute;
+    padding: 15px 20px;
+    right: 10px;
+    background: none;
+    border: 2px solid #ffffff;
+    color: #009900;
+    font-size: 13px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.fic-button:hover{
+    cursor: pointer;
+    transition: ease-in-out .2s;
+    border: 2px solid #ffab00;
+}
