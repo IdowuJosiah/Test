@@ -73,3 +73,23 @@ body{
     font-size: 13px;
     color: #ffffff;
 }
+@media screen and (min-width :380px) and (max-width : 500px) {
+    .footer-links-sect h2{
+        font-size: 12px;
+    }
+    .footer-link-list li{
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .footer-address-comp{
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .footer-address div h2{
+        font-size: 11px;
+    }
+    .footer-address div p{
+        font-size: 8px;
+    }
+}

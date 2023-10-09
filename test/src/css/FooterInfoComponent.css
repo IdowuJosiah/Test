@@ -74,3 +74,36 @@
     transition: ease-in-out .2s;
     border: 2px solid #ffab00;
 }
+@media screen and (min-width :380px) and (max-width : 500px) {
+    .footer-info-comp{
+        flex-direction: column;
+    }
+    .fic-rs{
+        width: 100%;
+        padding-top: 20px;
+        line-height: 20px;
+        font-size: 8px;
+    }
+    .fic-ls{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .fic-ls-header{
+        font-size: 12px;
+        height: 20px;
+    }
+    .fic-ls-text{
+        font-size: 8px;
+    }
+    .fic-ls-text p{
+        line-height: 20px;
+    }
+    .fic-subscribe{
+        padding-top: 10px;
+    }
+    .fic-button{
+        padding:1px 12px ;
+        height: 100%;
+        letter-spacing: 3px;
+    }
+}

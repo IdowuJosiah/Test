@@ -58,11 +58,11 @@ const Banner =() => {
             </div>
             <div className="banner-left-button bn"
                  onClick={prevSlide}>
-                <BsChevronLeft color="#ffff" size={50}/>
+                <BsChevronLeft className="bnr" color="#ffff" />
             </div>
             <div className="banner-right-button bn"
                  onClick={nextSlide}>
-                <BsChevronRight color="#ffff" size={50}/>
+                <BsChevronRight className="bnr" color="#ffff"/>
             </div>
         </section>
     )

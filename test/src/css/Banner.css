@@ -40,7 +40,7 @@ body{
 }
 .banner-header{
     top: 40%;
-    font-size: 2.3rem;
+    font-size: 45px;
     font-weight: 600;
     color: #ffff;
     position: absolute;
@@ -50,11 +50,14 @@ body{
     align-items: center;
     justify-content: center;
     transition-duration: 1000ms;
-
+}
+.banner-header:hover{
+    color: #009900;
+    transition-duration: 1000ms;
 }
 .banner-text{
     top: 50%;
-    font-size: 1.2rem;
+    font-size: 18px;
     color: #ffff;
     position: absolute;
     display: flex;
@@ -68,8 +71,8 @@ body{
     text-align: center;
 }
 .logo{
-    width: 15rem;
-    height: 2.5rem;
+    width: 20%;
+    height: 35px;
     cursor: pointer;
     position: absolute;
     top: 1.5em;
@@ -78,4 +81,29 @@ body{
 .logo img{
     width: 100%;
     height: 100%;
+}
+@media screen and (min-width :400px) and (max-width : 500px) {
+    .logo{
+
+    }
+    .banner{
+        height: 100vh;
+    }
+    .banner-header{
+        top: 25%;
+        font-size: 25px;
+    }
+    .banner-text{
+        top: 35%;
+        font-size: 10px;
+    }
+    .banner-left-button{
+        top: 30%;
+        Size: 3px;
+
+    }
+    .banner-right-button{
+        top: 30%;
+    }
+
 }
